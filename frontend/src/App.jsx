@@ -29,8 +29,8 @@ const App = () => {
 
           {/* admin routes */}
           <Route path="/admin-dashboard" element={<AdminDashboard />} />
-          <Route path="/admin-all-tasks" element={<AdminAllTasks/>} />
-          <Route path="/all-users" element={<AllUsers/>} />
+          <Route path="/admin-all-tasks" element={<AdminAllTasks />} />
+          <Route path="/all-users" element={<AllUsers />} />
         </Routes>
       </div>
     </div>
